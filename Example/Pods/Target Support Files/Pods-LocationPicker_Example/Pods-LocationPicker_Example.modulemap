@@ -1,0 +1,6 @@
+framework module Pods_LocationPicker_Example {
+  umbrella header "Pods-LocationPicker_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,17 +8,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+import CoreLocation
+import LocationPicker
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+class ViewController: UIViewController, LocationPickerViewControllerDelegate {
+
+    @IBOutlet weak var descLabel: UILabel!
+    
+    @IBAction func selectLocation(){
+        
+        let viewController = LocationPickerViewController()
+        
+        viewController.pickerDelegate = self
+        
+        self.present(viewController, animated: true, completion: nil)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func userDidCancel() {
+        
+        self.dismiss(animated: true, completion: nil)
     }
-
+    
+    func userSelectLocation(placemark: CLPlacemark) {
+        
+        self.dismiss(animated: true, completion: nil)
+        
+        descLabel.text = placemark.formatString
+    }
 }
 

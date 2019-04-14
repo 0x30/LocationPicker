@@ -1,0 +1,32 @@
+{
+  "name": "LocationPicker",
+  "version": "0.1.0",
+  "summary": "A short description of LocationPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/200739491@qq.com/LocationPicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "200739491@qq.com": "200739491@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/200739491@qq.com/LocationPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LocationPicker/Classes/**/*",
+  "swift_versions": "5.0",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "Pulley": [
+
+    ]
+  }
+}

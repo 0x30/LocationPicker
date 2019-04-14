@@ -42,9 +42,9 @@
 		607FACE51AFB9204008FA782 /* LocationPicker_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationPicker_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6C3BFC205499740D36B62E1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		75923D3AE84F8334606BEC41 /* LocationPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LocationPicker.podspec; path = ../LocationPicker.podspec; sourceTree = "<group>"; };
-		91DA85362A54B52EC59A5C56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6C3BFC205499740D36B62E1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		75923D3AE84F8334606BEC41 /* LocationPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LocationPicker.podspec; path = ../LocationPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91DA85362A54B52EC59A5C56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AB30A1ACC73CD8167BC1393E /* Pods-LocationPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationPicker_Example.release.xcconfig"; path = "Target Support Files/Pods-LocationPicker_Example/Pods-LocationPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B5975C3C334FC6560A84537F /* Pods_LocationPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				23C63BD73B3E8C2E4BEA48D5 /* Pods-LocationPicker_Tests.debug.xcconfig */,
 				037DF04DBA014FF85AC40B82 /* Pods-LocationPicker_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				28D6CF12C9959A0660EC1A08 /* [CP] Embed Pods Frameworks */,
+				790A48627CE1C331CF6E98AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 73ARS52P5Z;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 73ARS52P5Z;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,18 +264,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		28D6CF12C9959A0660EC1A08 /* [CP] Embed Pods Frameworks */ = {
+		790A48627CE1C331CF6E98AE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LocationPicker_Example/Pods-LocationPicker_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework",
 				"${BUILT_PRODUCTS_DIR}/LocationPicker/LocationPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework",
+				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBRetainCycleDetector.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocationPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLeaksFinder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -478,6 +486,7 @@
 			baseConfigurationReference = 37FF3EFE97CE09D13C8DA558 /* Pods-LocationPicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 73ARS52P5Z;
 				INFOPLIST_FILE = LocationPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +502,7 @@
 			baseConfigurationReference = AB30A1ACC73CD8167BC1393E /* Pods-LocationPicker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 73ARS52P5Z;
 				INFOPLIST_FILE = LocationPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 23C63BD73B3E8C2E4BEA48D5 /* Pods-LocationPicker_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 73ARS52P5Z;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 037DF04DBA014FF85AC40B82 /* Pods-LocationPicker_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 73ARS52P5Z;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
