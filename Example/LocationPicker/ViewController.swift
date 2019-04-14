@@ -11,7 +11,7 @@ import UIKit
 import CoreLocation
 import LocationPicker
 
-class ViewController: UIViewController, LocationPickerViewControllerDelegate {
+class ViewController: UIViewController {
 
     @IBOutlet weak var descLabel: UILabel!
     
@@ -23,6 +23,9 @@ class ViewController: UIViewController, LocationPickerViewControllerDelegate {
         
         self.present(viewController, animated: true, completion: nil)
     }
+}
+
+extension ViewController: LocationPickerViewControllerDelegate{
     
     func userDidCancel() {
         
@@ -36,4 +39,3 @@ class ViewController: UIViewController, LocationPickerViewControllerDelegate {
         descLabel.text = placemark.formatString
     }
 }
-
