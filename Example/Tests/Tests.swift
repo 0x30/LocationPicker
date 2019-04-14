@@ -1,5 +1,5 @@
 import XCTest
-import LocationPicker
+//import LocationPicker
 
 class Tests: XCTestCase {
     

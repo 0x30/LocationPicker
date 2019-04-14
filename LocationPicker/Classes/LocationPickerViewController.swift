@@ -12,7 +12,7 @@ import MapKit
 
 import Pulley
 
-public protocol LocationPickerViewControllerDelegate {
+public protocol LocationPickerViewControllerDelegate: class {
     
     /// user click cancel button
     func userDidCancel()
@@ -33,7 +33,7 @@ public class LocationPickerViewController: PulleyViewController {
     private let peekViewController: PeekViewController
     
     /// LocationPickerViewControllerDelegate
-    public var pickerDelegate: LocationPickerViewControllerDelegate? {
+    public weak var pickerDelegate: LocationPickerViewControllerDelegate? {
         didSet{
             mapViewController.pickerDelegate = pickerDelegate
             peekViewController.pickerDelegate = pickerDelegate
@@ -56,11 +56,6 @@ public class LocationPickerViewController: PulleyViewController {
     
     required init(contentViewController: UIViewController, drawerViewController: UIViewController) {
         fatalError("init(contentViewController:drawerViewController:) has not been implemented")
-    }
-    
-    deinit {
-        
-        print("释放 LocationPickerViewController")
     }
 }
 
@@ -111,7 +106,7 @@ class MapViewController: UIViewController, PulleyPrimaryContentControllerDelegat
         
         mapView.showsUserLocation = true
         
-        locationCapture = LocationCapture(self, barItem: locationController.locationButton)
+        //        locationCapture = LocationCapture(self, barItem: locationController.locationButton)
         
         locationController.closeButton.target = self
         locationController.closeButton.action = #selector(closeButtonClicked)
@@ -293,7 +288,7 @@ extension MapViewController{
 }
 
 class PeekViewController: UIViewController {
-    
+
     var pickerDelegate: LocationPickerViewControllerDelegate?
     
     /// 地图视图
@@ -510,8 +505,8 @@ extension PeekViewController: UIGestureRecognizerDelegate {
 extension PeekViewController{
     
     class PeekPinAnnotationView: MKPinAnnotationView{
-        
-        private var delegate: PeekLocationSelectedDelegate?
+
+        private weak var delegate: PeekLocationSelectedDelegate?
         
         private let button = UIButton(type: UIButton.ButtonType.system)
         
@@ -867,7 +862,7 @@ extension PeekViewController{
     }
 }
 
-protocol PeekLocationSelectedDelegate {
+protocol PeekLocationSelectedDelegate: class {
     
     func locationDidSelected(_ placemark: CLPlacemark)
 }
@@ -889,7 +884,7 @@ extension PeekViewController{
         
         private var item: MKMapItem?
         
-        var delegate: PeekLocationSelectedDelegate?
+        weak var delegate: PeekLocationSelectedDelegate?
         
         override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
             

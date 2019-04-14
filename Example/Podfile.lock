@@ -9,6 +9,7 @@ PODS:
 DEPENDENCIES:
   - LocationPicker (from `../`)
   - MLeaksFinder
+  - Pulley
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -26,6 +27,6 @@ SPEC CHECKSUMS:
   MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
   Pulley: 028ddcc7d2dcbc078d71b61b7eee8e786d72c14a
 
-PODFILE CHECKSUM: e316d2008170d86c59226e14ea18142c76b4d5fb
+PODFILE CHECKSUM: c118fbf9b619b12ba585a739114c76cb87655b91
 
 COCOAPODS: 1.7.0.beta.3
