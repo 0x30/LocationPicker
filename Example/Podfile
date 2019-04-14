@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LocationPicker_Example' do
+  pod 'LocationPicker', :path => '../'
+
+  target 'LocationPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
