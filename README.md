@@ -20,6 +20,59 @@ it, simply add the following line to your Podfile:
 pod 'LocationPicker'
 ```
 
+## Use
+
+````swift
+import CoreLocation
+import LocationPicker
+
+class ViewController: UIViewController {
+
+    @IBOutlet weak var descLabel: UILabel!
+    
+    @IBAction func selectLocation(){
+        
+        let viewController = LocationPickerViewController()
+        
+        viewController.pickerDelegate = self
+        
+        self.present(viewController, animated: true, completion: nil)
+    }
+}
+
+extension ViewController: LocationPickerViewControllerDelegate{
+    
+    func userDidCancel() {
+        
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    func userSelectLocation(placemark: CLPlacemark) {
+        
+        self.dismiss(animated: true, completion: nil)
+        
+        descLabel.text = placemark.formatString
+    }
+}
+
+````
+
+## preview
+
+![](docs/Assets/IMG_1350.PNG)
+
+-------
+
+![](docs/Assets/IMG_1351.PNG)
+
+-------
+
+![](docs/Assets/IMG_1352.PNG)
+
+-------
+
+![](docs/Assets/IMG_1353.PNG)
+
 ## Author
 
 200739491@qq.com, 200739491@qq.com
