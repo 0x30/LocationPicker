@@ -618,16 +618,11 @@ extension PeekViewController: MKMapViewDelegate{
             
             userLocationGeocoder.reverseGeocodeLocation(location) { (placemarks, error) in
                 
-                /// Geocoder error
-                if let error = error as NSError? {
+                if let placemark = placemarks?.first {
                     
-                    userLocation.title = CLError(_nsError: error).pickerdescription
+                    userLocation.placemark = placemark
                     
-                }else{
-                    
-                    userLocation.placemark = placemarks?.first
-                    
-                    userLocation.title = placemarks?.first?.formatStringNoBreakLine
+                    userLocation.title = placemark.formatStringNoBreakLine
                 }
             }
         }
