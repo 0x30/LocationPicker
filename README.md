@@ -11,6 +11,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+```ruby
+s.swift_version = '5.0'
+s.ios.deployment_target = '9.0'
+```
+
 ## Installation
 
 LocationPicker is available through [CocoaPods](https://cocoapods.org). To install
