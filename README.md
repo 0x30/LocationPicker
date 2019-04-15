@@ -17,7 +17,7 @@ LocationPicker is available through [CocoaPods](https://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LocationPicker'
+pod 'LocationPicker', :git => 'https://github.com/0x30/LocationPicker'
 ```
 
 ## Use
