@@ -106,7 +106,7 @@ class MapViewController: UIViewController, PulleyPrimaryContentControllerDelegat
         
         mapView.showsUserLocation = true
         
-        //        locationCapture = LocationCapture(self, barItem: locationController.locationButton)
+        locationCapture = LocationCapture(self, barItem: locationController.locationButton)
         
         locationController.closeButton.target = self
         locationController.closeButton.action = #selector(closeButtonClicked)
