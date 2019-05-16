@@ -11,7 +11,7 @@
 		01CA53B4895D714C8BC18ED9DFED78AA /* FBRetainCycleUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE922A2B541E9E3011940EAD1255828 /* FBRetainCycleUtils.m */; };
 		040C165352D4FF96DEB16D71BE2198B5 /* FBRetainCycleDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1A6EAD03628BDAECB8F2152F9B267B /* FBRetainCycleDetector.framework */; };
 		0865D4DAED9B4DF4CCD31765FBBF97D0 /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DB76B035B7FF065254885287706226 /* UIView+MemoryLeak.m */; };
-		0CA94BD864C9753DA73FE58F6ECCA5B9 /* LocationPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D6DD0AFD0083B2DA6BFA01E70D1D42 /* LocationPicker-dummy.m */; };
+		0CA94BD864C9753DA73FE58F6ECCA5B9 /* LocationPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9669A1476100309C50BE9B1A20AA071 /* LocationPicker-dummy.m */; };
 		0E3929D5315D1723E14FF9CAAD6CDF20 /* MLeakedObjectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C038782A28E857F86A8148EE0DCC2DF /* MLeakedObjectProxy.m */; };
 		0EF5B4F7EBD4DB29CDFB2A6C00E29901 /* FBClassStrongLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64BA2C30085953C80ED16F975A917487 /* FBClassStrongLayout.mm */; };
 		0F62B11E113F9DB5733991A76C4FBF3D /* FBObjectGraphConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE804CBCA1670CFC09B85EFCBD8AE0E /* FBObjectGraphConfiguration.m */; };
@@ -36,7 +36,7 @@
 		3B7309B2494F86557A3E1633B7326839 /* Struct.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1BD9768F8F0950A94A4AFA59C0868BDA /* Struct.mm */; };
 		3D942CF5A5A6E6C672FA1BC316D2847F /* FBObjectiveCGraphElement.h in Headers */ = {isa = PBXBuildFile; fileRef = B9CD8DCFD78A7A47DCC9ECB091663314 /* FBObjectiveCGraphElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F2609446AD017767FF5386FEDDF326F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6645EDE4D5B5F61707F5C4ECC523B0A0 /* Foundation.framework */; };
-		455E543075BA687A80EA8D780E49110A /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D1D4221EC79D5927F8B5503722DDC1 /* LocationPickerViewController.swift */; };
+		455E543075BA687A80EA8D780E49110A /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320BB6AEAF7206497957E05ECCEEA04B /* LocationPickerViewController.swift */; };
 		4701931DEB6DA1EF94591EEEE0D63D40 /* FBRetainCycleDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = C42DCE6CEDB7BEF0841DC9361FC7A12B /* FBRetainCycleDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47588B3E74BBF61CB36B9DF6428FB463 /* Type.h in Headers */ = {isa = PBXBuildFile; fileRef = D73717CF2F127F292F634BE3161FE1D7 /* Type.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4BC4DBB991BD9520D53942BD0A910625 /* FBObjectiveCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCEE804587858215E48FC83C927BE8E /* FBObjectiveCObject.m */; };
@@ -94,7 +94,7 @@
 		EE917F37B29514517512268143492F2A /* FBObjectiveCNSCFTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF77379E9BCD198A738C33F16AD4B2D /* FBObjectiveCNSCFTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F03E59F4BFE591AE5655FCAC812C7ECB /* FBClassStrongLayoutHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EABD3D738AF2F99069E2B746E0F42E /* FBClassStrongLayoutHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F1BCAB4880F8479CB6212C40E15CF1A5 /* UIViewController+PulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E690EA8CF07E58B10D3330547D16C26 /* UIViewController+PulleyViewController.swift */; };
-		F1D959DBC330E12087BD4D92A80EE330 /* LocationPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0945EA69291BF5D4CA08BBF530BD5F /* LocationPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1D959DBC330E12087BD4D92A80EE330 /* LocationPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D75BDC7CCA8EE8764718994350A4EB /* LocationPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F43DB1AB46B0293E1216AC0ACD07D295 /* FBObjectiveCObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D737385232AB34D6AAD64851C452AD6C /* FBObjectiveCObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F46BC1EB5608B574DE369188660B098B /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 580EEB608CDFFD2595F478A44821C41B /* UIViewController+MemoryLeak.m */; };
 		F46CD8298F97AE2C0F54F3378B248B74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6645EDE4D5B5F61707F5C4ECC523B0A0 /* Foundation.framework */; };
@@ -169,29 +169,33 @@
 		12D3C4687E98589AA57E4D0BCDC99602 /* Pulley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pulley.framework; path = Pulley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1A6EAD03628BDAECB8F2152F9B267B /* FBRetainCycleDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBRetainCycleDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD9768F8F0950A94A4AFA59C0868BDA /* Struct.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = Struct.mm; path = FBRetainCycleDetector/Layout/Classes/Parser/Struct.mm; sourceTree = "<group>"; };
+		22BADC074CB4F78A8379E1A2C599BCD9 /* LocationPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocationPicker-Info.plist"; sourceTree = "<group>"; };
 		23DFBC02AA7EE201D10E7A9419830DD9 /* UIView+constrainToParent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+constrainToParent.swift"; path = "PulleyLib/UIView+constrainToParent.swift"; sourceTree = "<group>"; };
 		24807DA65BC397D026999BE336A5D4A4 /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
 		25ADFE491A1B71906A55EF4F40BD081A /* FBObjectInStructReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBObjectInStructReference.m; path = FBRetainCycleDetector/Layout/Classes/Reference/FBObjectInStructReference.m; sourceTree = "<group>"; };
 		28444DB55DB32F2A8271069C0845CF65 /* FBRetainCycleDetector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBRetainCycleDetector.modulemap; sourceTree = "<group>"; };
+		28C1DC993E730BCD65AFC5A2AB341052 /* IMG_1352.PNG */ = {isa = PBXFileReference; includeInIndex = 1; name = IMG_1352.PNG; path = docs/Assets/IMG_1352.PNG; sourceTree = "<group>"; };
 		29E3D92B2CE69F9BBAD45B9CB337B15B /* FBObjectiveCBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectiveCBlock.h; path = FBRetainCycleDetector/Graph/FBObjectiveCBlock.h; sourceTree = "<group>"; };
-		2C0945EA69291BF5D4CA08BBF530BD5F /* LocationPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationPicker-umbrella.h"; sourceTree = "<group>"; };
+		2B19204CC4C5AF9DCAB5AB61B3A76B6E /* IMG_1351.PNG */ = {isa = PBXFileReference; includeInIndex = 1; name = IMG_1351.PNG; path = docs/Assets/IMG_1351.PNG; sourceTree = "<group>"; };
 		2EECE8AFCC24277CBE59163EE6823052 /* MLeaksFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLeaksFinder-umbrella.h"; sourceTree = "<group>"; };
 		2EFE73A6E053C34A0B138B15A2608205 /* FBRetainCycleDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBRetainCycleDetector-dummy.m"; sourceTree = "<group>"; };
+		320BB6AEAF7206497957E05ECCEEA04B /* LocationPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationPickerViewController.swift; path = LocationPicker/Classes/LocationPickerViewController.swift; sourceTree = "<group>"; };
+		3851C812FFBE4162AE5F0A6E20CFB866 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		38CF0D99B0A6A3A9CE8BDB9595FF51B6 /* Pods-LocationPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3A0A7A825DBEF45152C27CDC8EAF8BA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3ABBC6466CF82D6AAC9FABE30D0BF151 /* LocationPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocationPicker.xcconfig; sourceTree = "<group>"; };
 		3AD01E83F52413DF2694508165840858 /* FBObjectiveCGraphElement+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBObjectiveCGraphElement+Internal.h"; path = "FBRetainCycleDetector/Graph/Internal/FBObjectiveCGraphElement+Internal.h"; sourceTree = "<group>"; };
 		3BCEE804587858215E48FC83C927BE8E /* FBObjectiveCObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBObjectiveCObject.m; path = FBRetainCycleDetector/Graph/FBObjectiveCObject.m; sourceTree = "<group>"; };
+		3C40C5F300F1FEA1420713F75A41E511 /* LocationPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationPicker-prefix.pch"; sourceTree = "<group>"; };
 		3DE922A2B541E9E3011940EAD1255828 /* FBRetainCycleUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBRetainCycleUtils.m; path = FBRetainCycleDetector/FBRetainCycleUtils.m; sourceTree = "<group>"; };
 		4123B2B0DFC788373D8AB6B4EE03AD3A /* FBIvarReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBIvarReference.h; path = FBRetainCycleDetector/Layout/Classes/Reference/FBIvarReference.h; sourceTree = "<group>"; };
 		4176B4D1DE70EF788D373A8A41BB72C9 /* FBAssociationManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBAssociationManager.mm; path = FBRetainCycleDetector/Associations/FBAssociationManager.mm; sourceTree = "<group>"; };
-		42266773305441B2DCA55F96256A4265 /* LocationPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationPicker-prefix.pch"; sourceTree = "<group>"; };
 		42F4A58C2C724641814C521E9C277370 /* MLeaksFinder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLeaksFinder.xcconfig; sourceTree = "<group>"; };
 		433748EFAC50DFD4FF416471404F951E /* Pods-LocationPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationPicker_Tests.modulemap"; sourceTree = "<group>"; };
 		44AFAFB9C91463348DE9F238EF618AAF /* FBNodeEnumerator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBNodeEnumerator.mm; path = FBRetainCycleDetector/Detector/FBNodeEnumerator.mm; sourceTree = "<group>"; };
 		4602ABE58BB7CF5587D77057D20A0DD7 /* MLeaksMessenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLeaksMessenger.h; path = MLeaksFinder/MLeaksMessenger.h; sourceTree = "<group>"; };
 		46AF9FF4638A5B35C5902C12C11AEB13 /* MLeaksFinder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLeaksFinder-prefix.pch"; sourceTree = "<group>"; };
 		47A1001975F98C67EE37FAF01B15CFF6 /* Pods-LocationPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4A7914FECDDF25271CD057EF8CC6D77B /* LocationPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocationPicker.xcconfig; sourceTree = "<group>"; };
 		4AEADBC6A218D23C6F00E9DBC00DB2C5 /* Struct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Struct.h; path = FBRetainCycleDetector/Layout/Classes/Parser/Struct.h; sourceTree = "<group>"; };
 		4D918532E607C8EDAC58693328209425 /* Pods-LocationPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4DDDDDF2B03E10392014CB5D10D19F3E /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
@@ -200,13 +204,13 @@
 		4FF4DA3236B6DBB8EB31BA3FA9CF7CAA /* Pulley-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pulley-Info.plist"; sourceTree = "<group>"; };
 		5601AD1276ED3BED88519FC06970DDF7 /* FBObjectInStructReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectInStructReference.h; path = FBRetainCycleDetector/Layout/Classes/Reference/FBObjectInStructReference.h; sourceTree = "<group>"; };
 		580EEB608CDFFD2595F478A44821C41B /* UIViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MemoryLeak.m"; path = "MLeaksFinder/UIViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		5879E07E6CF378D4EEF0216209842CA9 /* IMG_1350.PNG */ = {isa = PBXFileReference; includeInIndex = 1; name = IMG_1350.PNG; path = docs/Assets/IMG_1350.PNG; sourceTree = "<group>"; };
 		595C2112B1B45232F03F866198928AE8 /* Pulley-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pulley-dummy.m"; sourceTree = "<group>"; };
+		5B5B9E932F8744E0D9E2DA3508A739DB /* IMG_1353.PNG */ = {isa = PBXFileReference; includeInIndex = 1; name = IMG_1353.PNG; path = docs/Assets/IMG_1353.PNG; sourceTree = "<group>"; };
 		600EF9891F4B04006D9EBA845CBADEEA /* Pods-LocationPicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationPicker_Tests-Info.plist"; sourceTree = "<group>"; };
 		6366272EE86A262FC6349625CA800DBD /* UISplitViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISplitViewController+MemoryLeak.m"; path = "MLeaksFinder/UISplitViewController+MemoryLeak.m"; sourceTree = "<group>"; };
-		63D6DD0AFD0083B2DA6BFA01E70D1D42 /* LocationPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocationPicker-dummy.m"; sourceTree = "<group>"; };
 		64BA2C30085953C80ED16F975A917487 /* FBClassStrongLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBClassStrongLayout.mm; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayout.mm; sourceTree = "<group>"; };
 		6645EDE4D5B5F61707F5C4ECC523B0A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		67EA0D12259427CEBB0617E7E5DFDEF6 /* LocationPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LocationPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6D26ADBF23A8F956FA94F3CF6C857742 /* FBRetainCycleDetector+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBRetainCycleDetector+Internal.h"; path = "FBRetainCycleDetector/Detector/FBRetainCycleDetector+Internal.h"; sourceTree = "<group>"; };
 		6D52BE53ECF1BCA140CEBEB43E9E3109 /* UINavigationController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+MemoryLeak.h"; path = "MLeaksFinder/UINavigationController+MemoryLeak.h"; sourceTree = "<group>"; };
 		6E0C667FE9713818AEDF7E014CA23169 /* FBStructEncodingParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBStructEncodingParser.h; path = FBRetainCycleDetector/Layout/Classes/Parser/FBStructEncodingParser.h; sourceTree = "<group>"; };
@@ -232,12 +236,12 @@
 		9D8963C92B922A081F9C028220C90E36 /* MLeakedObjectProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLeakedObjectProxy.h; path = MLeaksFinder/MLeakedObjectProxy.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F28550D48F3698132A7E8A3A88501AA /* FBClassStrongLayoutHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBClassStrongLayoutHelpers.h; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayoutHelpers.h; sourceTree = "<group>"; };
+		A1D75BDC7CCA8EE8764718994350A4EB /* LocationPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationPicker-umbrella.h"; sourceTree = "<group>"; };
 		A3217AF6FC1AE78C8F5CFA37D631C05A /* FBBlockStrongLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBBlockStrongLayout.m; path = FBRetainCycleDetector/Layout/Blocks/FBBlockStrongLayout.m; sourceTree = "<group>"; };
 		A4E015D59E574BF2929E09FA7C44DEB5 /* FBObjectGraphConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectGraphConfiguration.h; path = FBRetainCycleDetector/Graph/FBObjectGraphConfiguration.h; sourceTree = "<group>"; };
 		A4F0B98BC774A5AF36CF22201A95559F /* MLeaksFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLeaksFinder.h; path = MLeaksFinder/MLeaksFinder.h; sourceTree = "<group>"; };
 		A50526B49BC98066160AFE563A995A03 /* FBIvarReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBIvarReference.m; path = FBRetainCycleDetector/Layout/Classes/Reference/FBIvarReference.m; sourceTree = "<group>"; };
 		A581CC8B7D7EE7E5CAF278A4DC31A844 /* FBStandardGraphEdgeFilters.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBStandardGraphEdgeFilters.mm; path = FBRetainCycleDetector/Filtering/FBStandardGraphEdgeFilters.mm; sourceTree = "<group>"; };
-		A673236409E4BCD2CF8D23B9CE8FB11F /* LocationPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocationPicker-Info.plist"; sourceTree = "<group>"; };
 		A6EABD3D738AF2F99069E2B746E0F42E /* FBClassStrongLayoutHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBClassStrongLayoutHelpers.m; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayoutHelpers.m; sourceTree = "<group>"; };
 		A8B29361380E76396A6C888992612E91 /* FBRetainCycleDetector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBRetainCycleDetector-umbrella.h"; sourceTree = "<group>"; };
 		ABB6C117144F68DBB482AB7AC512CF27 /* Pods-LocationPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationPicker_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -254,7 +258,6 @@
 		C1B05BAB8A4E79FCA49A1E3C8A543E55 /* MLeaksFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLeaksFinder-dummy.m"; sourceTree = "<group>"; };
 		C32A2306995D6D5F30BA74318328C077 /* FBRetainCycleDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBRetainCycleDetector.framework; path = FBRetainCycleDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42DCE6CEDB7BEF0841DC9361FC7A12B /* FBRetainCycleDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRetainCycleDetector.h; path = FBRetainCycleDetector/Detector/FBRetainCycleDetector.h; sourceTree = "<group>"; };
-		C4D1D4221EC79D5927F8B5503722DDC1 /* LocationPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationPickerViewController.swift; path = LocationPicker/Classes/LocationPickerViewController.swift; sourceTree = "<group>"; };
 		C58A6663841E061D886B5E100D296578 /* FBAssociationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAssociationManager.h; path = FBRetainCycleDetector/Associations/FBAssociationManager.h; sourceTree = "<group>"; };
 		C80F5B188FDE7B97F99D5BAC5D57773D /* FBRetainCycleDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBRetainCycleDetector-prefix.pch"; sourceTree = "<group>"; };
 		C83A0DDF6E3F35C1612A32991E89BE2C /* Pulley.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pulley.modulemap; sourceTree = "<group>"; };
@@ -264,12 +267,12 @@
 		CE74F9D515A9B73FDB457E4D657A6064 /* Pods-LocationPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CE938FC14FB29CB175380F61B3DA085D /* FBRetainCycleUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRetainCycleUtils.h; path = FBRetainCycleDetector/FBRetainCycleUtils.h; sourceTree = "<group>"; };
 		CFC93FCE0B9D8BCBDC7B9506D5D35194 /* MLeaksFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MLeaksFinder.modulemap; sourceTree = "<group>"; };
-		D09C9DFBF689CED17366A784D134953A /* LocationPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocationPicker.modulemap; sourceTree = "<group>"; };
 		D17E5F0BAAD1AAB75AABFFA951AD3C37 /* UINavigationController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+MemoryLeak.m"; path = "MLeaksFinder/UINavigationController+MemoryLeak.m"; sourceTree = "<group>"; };
-		D352A54DBC1DA68BAD35B2D1D3A2CABC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D19D4D4D46B9DD516EDE1906283B520C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D4DB76B035B7FF065254885287706226 /* UIView+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MemoryLeak.m"; path = "MLeaksFinder/UIView+MemoryLeak.m"; sourceTree = "<group>"; };
 		D73717CF2F127F292F634BE3161FE1D7 /* Type.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.h; path = FBRetainCycleDetector/Layout/Classes/Parser/Type.h; sourceTree = "<group>"; };
 		D737385232AB34D6AAD64851C452AD6C /* FBObjectiveCObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectiveCObject.h; path = FBRetainCycleDetector/Graph/FBObjectiveCObject.h; sourceTree = "<group>"; };
+		D9669A1476100309C50BE9B1A20AA071 /* LocationPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocationPicker-dummy.m"; sourceTree = "<group>"; };
 		D9BD71F7603A6834C33AB65BF984B2E5 /* FBBlockStrongRelationDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBBlockStrongRelationDetector.h; path = FBRetainCycleDetector/Layout/Blocks/FBBlockStrongRelationDetector.h; sourceTree = "<group>"; };
 		DC7E2C1FE1A469EF2CB8ADAC81041D89 /* FBStandardGraphEdgeFilters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBStandardGraphEdgeFilters.h; path = FBRetainCycleDetector/Filtering/FBStandardGraphEdgeFilters.h; sourceTree = "<group>"; };
 		DD0A0D7701D5ACC369871FCF8F086456 /* UITabBarController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+MemoryLeak.m"; path = "MLeaksFinder/UITabBarController+MemoryLeak.m"; sourceTree = "<group>"; };
@@ -278,12 +281,13 @@
 		E1DC65D4D8F3E042C6343FC05E10AE5B /* Pods-LocationPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationPicker_Example-dummy.m"; sourceTree = "<group>"; };
 		E2E358BC489409F7C973A5AD9DDD3F52 /* Pods_LocationPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocationPicker_Tests.framework; path = "Pods-LocationPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BDA2D7363EE0A0C937DF02A8BBB0C6 /* UIApplication+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+MemoryLeak.m"; path = "MLeaksFinder/UIApplication+MemoryLeak.m"; sourceTree = "<group>"; };
+		E3F4AEFF6DC79F56295BD9579FEA215D /* LocationPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocationPicker.modulemap; sourceTree = "<group>"; };
 		E4707E27989D5FADC03F3DC0389EA80E /* MLeaksFinder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MLeaksFinder-Info.plist"; sourceTree = "<group>"; };
 		E4D59F9137B1E7CE24256C73EE04E8D9 /* Pods-LocationPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocationPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E72F1ADFFA73986BBC5C679222B661DD /* LocationPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LocationPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EE335084AEC7DDEAB55FC23238FA444B /* MLeaksFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MLeaksFinder.framework; path = MLeaksFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0003290A073BBB59DBA9232AC8ACB4B /* UIPageViewController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPageViewController+MemoryLeak.h"; path = "MLeaksFinder/UIPageViewController+MemoryLeak.h"; sourceTree = "<group>"; };
 		F1545F73D78ACF4A94946BB619E299D8 /* NSObject+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MemoryLeak.h"; path = "MLeaksFinder/NSObject+MemoryLeak.h"; sourceTree = "<group>"; };
-		F4A6BB46A736B50C5261239B34952656 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F5A0CD61F530BC48643591CDC7DB76FF /* Pods-LocationPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F8A0E0567405699F27888A48A4CFB6DF /* FBClassStrongLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBClassStrongLayout.h; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayout.h; sourceTree = "<group>"; };
 		F9B369D63F0D9A93EF9F417BF02C9E51 /* FBStructEncodingParser.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBStructEncodingParser.mm; path = FBRetainCycleDetector/Layout/Classes/Parser/FBStructEncodingParser.mm; sourceTree = "<group>"; };
@@ -394,6 +398,20 @@
 			path = MLeaksFinder;
 			sourceTree = "<group>";
 		};
+		17D143B6B4661024F5AC97241D2840B8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5879E07E6CF378D4EEF0216209842CA9 /* IMG_1350.PNG */,
+				2B19204CC4C5AF9DCAB5AB61B3A76B6E /* IMG_1351.PNG */,
+				28C1DC993E730BCD65AFC5A2AB341052 /* IMG_1352.PNG */,
+				5B5B9E932F8744E0D9E2DA3508A739DB /* IMG_1353.PNG */,
+				D19D4D4D46B9DD516EDE1906283B520C /* LICENSE */,
+				E72F1ADFFA73986BBC5C679222B661DD /* LocationPicker.podspec */,
+				3851C812FFBE4162AE5F0A6E20CFB866 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		1900C61E762462170B3A8C6EB7DCD13C /* Pulley */ = {
 			isa = PBXGroup;
 			children = (
@@ -481,9 +499,23 @@
 		48A9EDB2ED0EBAE64AA23023C23E6C7D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				90CD2ECF759BF088053F6B38DDAF79F1 /* LocationPicker */,
+				A73566309FACEE3C9E470CDAEC70E67B /* LocationPicker */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4E11C609B8B0102D5EFEBB51931E7A16 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3F4AEFF6DC79F56295BD9579FEA215D /* LocationPicker.modulemap */,
+				3ABBC6466CF82D6AAC9FABE30D0BF151 /* LocationPicker.xcconfig */,
+				D9669A1476100309C50BE9B1A20AA071 /* LocationPicker-dummy.m */,
+				22BADC074CB4F78A8379E1A2C599BCD9 /* LocationPicker-Info.plist */,
+				3C40C5F300F1FEA1420713F75A41E511 /* LocationPicker-prefix.pch */,
+				A1D75BDC7CCA8EE8764718994350A4EB /* LocationPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LocationPicker";
 			sourceTree = "<group>";
 		};
 		5C99D62F56E98BD3E4953361EF4732E1 /* Support Files */ = {
@@ -509,17 +541,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		90CD2ECF759BF088053F6B38DDAF79F1 /* LocationPicker */ = {
-			isa = PBXGroup;
-			children = (
-				C4D1D4221EC79D5927F8B5503722DDC1 /* LocationPickerViewController.swift */,
-				E88BFA2D140528A1B7838E79116B9FEA /* Pod */,
-				9D7ACEF17B374B88686DFD569DA736A1 /* Support Files */,
-			);
-			name = LocationPicker;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		952A1C5A33DAD3D70B7466B20AA82E46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -533,20 +554,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D7ACEF17B374B88686DFD569DA736A1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D09C9DFBF689CED17366A784D134953A /* LocationPicker.modulemap */,
-				4A7914FECDDF25271CD057EF8CC6D77B /* LocationPicker.xcconfig */,
-				63D6DD0AFD0083B2DA6BFA01E70D1D42 /* LocationPicker-dummy.m */,
-				A673236409E4BCD2CF8D23B9CE8FB11F /* LocationPicker-Info.plist */,
-				42266773305441B2DCA55F96256A4265 /* LocationPicker-prefix.pch */,
-				2C0945EA69291BF5D4CA08BBF530BD5F /* LocationPicker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LocationPicker";
-			sourceTree = "<group>";
-		};
 		A6FEF9EF32DFA4C82303AC5AC8BC88C7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -555,6 +562,17 @@
 				1900C61E762462170B3A8C6EB7DCD13C /* Pulley */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A73566309FACEE3C9E470CDAEC70E67B /* LocationPicker */ = {
+			isa = PBXGroup;
+			children = (
+				320BB6AEAF7206497957E05ECCEEA04B /* LocationPickerViewController.swift */,
+				17D143B6B4661024F5AC97241D2840B8 /* Pod */,
+				4E11C609B8B0102D5EFEBB51931E7A16 /* Support Files */,
+			);
+			name = LocationPicker;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -621,16 +639,6 @@
 			);
 			name = FBRetainCycleDetector;
 			path = FBRetainCycleDetector;
-			sourceTree = "<group>";
-		};
-		E88BFA2D140528A1B7838E79116B9FEA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D352A54DBC1DA68BAD35B2D1D3A2CABC /* LICENSE */,
-				67EA0D12259427CEBB0617E7E5DFDEF6 /* LocationPicker.podspec */,
-				F4A6BB46A736B50C5261239B34952656 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1082,7 +1090,7 @@
 		};
 		343347BF932A03E33F8A36E5EC3AC076 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A7914FECDDF25271CD057EF8CC6D77B /* LocationPicker.xcconfig */;
+			baseConfigurationReference = 3ABBC6466CF82D6AAC9FABE30D0BF151 /* LocationPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1437,7 +1445,7 @@
 		};
 		E919A0DB0B79BCA89C2B2E799C9EC86D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A7914FECDDF25271CD057EF8CC6D77B /* LocationPicker.xcconfig */;
+			baseConfigurationReference = 3ABBC6466CF82D6AAC9FABE30D0BF151 /* LocationPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
